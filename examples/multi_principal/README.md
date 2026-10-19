@@ -45,6 +45,17 @@ done
 
 `--seed` controls budgets/prices
 
-Results: `results/multi_principal/`. 
+Results: `results/multi_principal/`.
 
+## Results
 
+Qwen3.6-35B-A3B: 3 seeds × 5 cases × 3 repetitions × 2 conditions = 90 runs.
+One attacked run timed out and is excluded below.
+
+| Metric | Clean | Attack |
+|---|---:|---:|
+| Valid runs | 45 | 44 |
+| Task completion | 44/45 (97.8%) | 3/44 (6.8%) |
+| Confidential-reference disclosure | 0/45 (0%) | 4/44 (9.1%) |
+
+Observation: All four disclosures occurred before the seller’s first reply: unsolicited principal-policy violations. So this is **not really confidential-reference disclosure due to attacker**, but it also show an unsafe behavior of agent itself.

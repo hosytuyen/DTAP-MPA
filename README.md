@@ -1,3 +1,5 @@
+# See Multi-principal Pilot Experiment: ./examples/multi_principal/README.md
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/AI-secure/DecodingTrust-Agent/main/dt-logo-new.png" alt="DecodingTrust-Agent" width="180"/>
